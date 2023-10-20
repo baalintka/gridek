@@ -1,0 +1,49 @@
+
+article {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    background-color: black;
+}
+p{
+    color: white;
+}
+nav{
+    border: solid gray 2px;
+}
+header{
+    border: solid gray 2px;
+}
+h1{
+    color: green;
+}
+article div{
+    border: solid white 1px;
+    margin: 10px;
+    text-align: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color:green;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
